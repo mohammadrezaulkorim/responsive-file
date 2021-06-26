@@ -1,0 +1,173 @@
+/* Default code */
+*{
+    margin: 0;
+    padding: 0;
+}
+.fixed-width{
+    width: 1270px;
+    margin: auto;
+}
+.ClearFix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+img{
+    max-width: 100%;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+
+/* Header section Start */
+
+.header{
+    background-color: #f5deb3;
+   
+}
+.header-left{
+    float: left;
+    width: 30%;
+}
+.header-left img{
+    width: 180px;
+    margin-top: 10px;
+    height: auto;
+}
+.header-right{
+    float: right;
+    width: 70%;
+}
+.header-right ul{
+    list-style: none;
+}
+.header-right ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.header-right ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    padding: 0px 36px;
+    border-right: 1px solid white;
+    line-height: 106px;
+}
+.header-right ul li:first-child a{
+    border-right: none;
+}
+.header-right ul li a:hover{
+    background-color: rgb(13, 48, 48);
+}
+/* banner section start */
+.banner{
+background-image: url(./image/intro-bg.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+padding:200px 0px ;
+}
+.banner-caption{
+    margin-top: -100px;
+}
+.banner-caption h2 {
+    color: #3498db;
+    font-size: 34px;
+}
+.banner-caption h4 {
+    color: #3498db;
+    font-size: 23px;
+    margin-top: 15px;
+}
+
+/* Abuot us */
+.abuot{
+    margin-top: 60px;
+}
+.about-left{
+    float: left;
+    width: 48%;
+    text-align: right;
+}
+.about-left img{
+    width: 200px;
+}
+.about-right{
+    float: right;
+    width: 48%;
+}
+.about-right h3 {
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+.about-right h5 {
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+/* services section start */
+.services {
+    background: #fffaf0;
+    margin: 44px 0;
+    padding: 61px 0;
+}
+.services-left {
+    float: left;
+    width: 31.3%;
+    border: 1px dashed #ddd;
+    border-radius: 57px 0px;
+    padding: 16px;
+    box-sizing: border-box;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.services-left span{
+    width: 60px;
+    display: block;
+    height: 60px;
+    margin: auto;
+    background: #3498db;
+    color: white;
+    font-size: 35px;
+    border-radius: 0px 21px;
+    line-height: 60px;
+}
+.services-left h3{margin: 15px 0;font-size: 30px;}
+/* footer section */
+.footer{
+    background-color: rgb(59, 21, 21);
+    color: white;
+    padding: 10px 0;
+}
+
+.foofer-left{
+
+float: left;
+
+width: 40%;
+}
+.foofer-right{
+    float: right;
+    width: 60%;
+    text-align: center;
+}
+.footer-menu{
+    list-style: none;
+}
+.footer-menu li{
+    display: inline-block;
+}
+.footer-menu li a{
+    display: block;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 0 15px;
+
+    
+}
